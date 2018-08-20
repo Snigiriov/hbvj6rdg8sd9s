@@ -1,0 +1,17 @@
+{
+"TEST_DIR": "audio/train English dataset/",
+
+"TRAIN_DIR": "audio/train Deutsch dataset/",
+
+"CLUSTER_DIR": "audio/train Deutsch dataset/",
+
+"CLASS_NAMES": ["Neutral", "Negative"],
+"CLASS_NAMES": ["Joy", "Negative", "Neutral", "Sadness"],
+
+"CLASSIFIER": "LINEAR_DISCRIMINANT",
+"CLASSIFIER": "KNN",
+"CLASSIFIER": "DECISION_TREE",
+"CLASSIFIER": "SVM",
+
+"KFOLD": 20
+}
